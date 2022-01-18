@@ -1,1 +1,1 @@
-# Artflix_NFTGalery
+# Artflix: NFTGalery
