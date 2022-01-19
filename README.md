@@ -8,6 +8,6 @@
 
 #### README.md
 
-#### O arquivco index.html, como o próprio nome diz, é o arquivo html da página principal.
+#### O arquivo index.html, como o próprio nome diz, é o arquivo html da página principal.
 
 #### E, na última pasta adicionada, é referente ao menu superior esquerdo que redireciona para as outras páginas, nesse diretório eu fiz apenas a página redes sociais.
