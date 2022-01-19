@@ -1,1 +1,11 @@
-# Artflix: NFTGalery
+# ARTFLIX: NFTGalery
+
+### Na pasta img contém os meus NFT's utilizados.
+
+### Na pasta js/owl contém os arq js e o carousel que eu peguei no site owl.
+
+### Na pasta style contém os arquivos css (main) e css (responsivo).
+
+### README.md
+
+### O arquivco index.html, como o próprio nome diz, é o arquivo html da página principal.
