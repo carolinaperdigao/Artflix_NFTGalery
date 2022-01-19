@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="style/main.css">
+
+    <!-- responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
     
     <!-- owl css-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
@@ -17,12 +20,13 @@
 
     <header>
         <div class="container">
-            <button class="logo">A R T F L I X</button>
+            <form method="get" action="index.html">
+            <button class="logo">A R T F L I X</button></form>
             <nav>
-                <a href="a">INÍCIO</a>
-                <a href="a">ARTES</a>
-                <a href="a">SOBRE MIM</a>
-                <a href="a">REDES SOCIAIS</a>
+                <a href="index.html">INÍCIO</a>
+                <a href="Menu_em_html/artes.html">ARTES</a>
+                <a href="Menu_em_html/sobremim.html">SOBRE MIM</a>
+                <a href="Menu_em_html/redessociais.html">REDES SOCIAIS</a>
             </nav>
 
         </div>
@@ -34,41 +38,73 @@
                 <h3 class="titulo">THE HOLY BITCOIN</h3>
                 <p class="descricao">Esta é uma arte que retrata a ruptura causada pelas criptomoedas, em que o Bitcoin é santificado e causador de um futuro fim - decapitação -
                    do sistema econômico - fiat - hoje conhecido. Quer saber mais?
-                </p>
-            <div class="botoes">
-                <button role="button" class="botao">
+                </p>            
+            <div class="botoes">            
+                <button type="submit" role="button" class="botao"></form>
                     <i class="fas fa-eye"></i>
                     VISUALIZAR ARTE
-                </button>
-                <button role="button" scr="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/3174733574953806758795419081014956834046527160346270400663902741645030850561" class="botao">
+                </button>                
+                <form method="get" action="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/3174733574953806758795419081014956834046527160346270400663902741645030850561" target="_blank">
+                <button role="button" class="botao"></form>
                     <i class="fab fa-ethereum"></i>
-                    COMPRE AGORA
+                    COMPRE AGORA NO OPENSEA
                 </button>
-                </div>
+                
+            </div>
             </div>
         </div>
     </main>
 
     <div class="carrossel">
         <div class="owl-carousel owl-theme"> 
+           
             <div class="item-mascaras">
-                <img class="box-filme" src="img/Máscaras.jpg" alt="mulher deitada em uma rosa">
+                <a href="#">
+                <img class="box-filme" src="img/Máscaras.jpg" alt="Desenho mulher tirando máscara">
+            <span class="desc">
+                <strong> Máscaras </strong>
+                A dor de esconder a dor.    
+            </span>
+            </a>             
             </div>
 
             <div class="item-homem">
-                <img class="box-filme" src="img/Homem.jpg" alt="mulher deitada em uma rosa">
+                <a href="#">
+                <img class="box-filme" src="img/Homem.jpg" alt="Desenho do rosto de um homem sendo esmagado por formas geométricas">
+                <span class="desc">
+                    <strong> Homem tão esmagado pelas formas do mundo </strong>
+                    que perdeu a própria.    
+                </span>
+                </a>             
             </div>
            
             <div class="item-rose">
+                <a href="#">
                 <img class="box-filme" src="img/Rose.jpg" alt="mulher deitada em uma rosa">
+                <span class="desc">
+                    <strong> Mulher vivendo </strong>
+                    apesar das dores da vida.    
+                </span>
+                </a>             
             </div>
 
             <div class="item-btc">
-                <img class="box-filme" src="img/holyBTC.jpg" alt="mulher deitada em uma rosa">
+                <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/3174733574953806758795419081014956834046527160346270400663902741645030850561?" target="_blank">
+                <img class="box-filme" src="img/holyBTC.jpg" alt="Santa caracterizada com Bitcoins">
+                <span class="desc">
+                    <strong> The Holy BTC </strong>
+                    O sagrado Bitcoin.  
+                </span>
+                </a>           
             </div>
 
             <div class="item-crown">
-                <img class="box-filme" src="img/crown.png" alt="mulher deitada em uma rosa">
+                <a href="#">
+                <img class="box-filme" src="img/crown.png" alt="Moeda de BTC apagada e iluminada na forma de uma coroa">
+                <span class="desc">
+                    <strong> Bitcoin Real.</strong>  
+                </span>
+                </a>           
             </div>
         </div>
     </div>

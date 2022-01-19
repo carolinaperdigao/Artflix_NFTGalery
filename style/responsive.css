@@ -1,0 +1,51 @@
+@media screen and (max-width:855px){
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container .logo {
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .container .titulo {
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .container .descricao {
+        font-size: 14px;
+    }
+
+    .container nav {
+        margin-bottom: 10px;
+    }
+
+    .botao {
+        margin-top: 5px;
+        margin-bottom: 8px;
+        width: 150px;
+        height: 90px;
+        text-size-adjust: auto;
+    }
+
+    .filme-principal .container .titulo {
+        margin-top: 60px;
+    }
+
+    .filme-principal .container .descricao {
+        margin-bottom: 15px;
+    }
+
+    .box-filme{ 
+        border-top: 2px solid var(--preta);
+    
+    }
+
+    header nav a {
+        margin-bottom: 5px;
+        font-size: small;
+    }
+}
+
