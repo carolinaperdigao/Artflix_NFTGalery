@@ -139,11 +139,13 @@ header nav a:hover {
     display: block;
     align-content: center;
 
-    border-top: 6px solid var(--preta);
+    border-top: 10px solid black;
+    
 }
 
 .carrossel {
-    margin-top: 5px;
+    margin-top: 5px solid black;
+    background-color: black;
 }
 
 ::selection {
@@ -164,11 +166,11 @@ header nav a:hover {
     text-decoration: none;
     float: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 .item-mascaras a:hover{
     cursor: pointer;
+    transform: translateY(-15px) scale(1.1);
 }
 
 .item-mascaras a img {
@@ -177,6 +179,14 @@ header nav a:hover {
     padding: 0;
     background: #fff;
 }
+
+/*REDIMENSIONAR PARA A IMAGEM COBRIR O ESPAÇO DO CARROSSEL*/
+.item-mascaras img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
 
 .item-mascaras a .desc {
     display: none;
@@ -235,6 +245,7 @@ header nav a:hover {
 
 .item-homem a:hover{
     cursor: pointer;
+    transform: translateY(-15px) scale(1.1);
 }
 
 .item-homem a img {
@@ -242,6 +253,13 @@ header nav a:hover {
     margin: 0;
     padding: 0;
     background: #fff;
+}
+
+/*REDIMENSIONAR PARA A IMAGEM COBRIR O ESPAÇO DO CARROSSEL*/
+.item-homem img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
 }
 
 .item-homem a .desc {
@@ -302,6 +320,7 @@ header nav a:hover {
 
 .item-rose a:hover{
     cursor: pointer;
+    transform: translateY(-15px) scale(1.1);
 }
 
 .item-rose a img {
@@ -309,6 +328,13 @@ header nav a:hover {
     margin: 0;
     padding: 0;
     background: #fff;
+}
+
+/*REDIMENSIONAR PARA A IMAGEM COBRIR O ESPAÇO DO CARROSSEL*/
+.item-rose img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
 }
 
 .item-rose a .desc {
@@ -368,6 +394,7 @@ header nav a:hover {
 
 .item-btc a:hover{
     cursor: pointer;
+    transform: translateY(-15px) scale(1.1);
 }
 
 .item-btc a img {
@@ -375,6 +402,13 @@ header nav a:hover {
     margin: 0;
     padding: 0;
     background: #fff;
+}
+
+/*REDIMENSIONAR PARA A IMAGEM COBRIR O ESPAÇO DO CARROSSEL*/
+.item-btc img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
 }
 
 .item-btc a .desc {
@@ -433,12 +467,20 @@ header nav a:hover {
 
 .item-crown a:hover{
     cursor: pointer;
+    transform: translateY(-15px) scale(1.1);
 }
 
 .item-crown a img {
     float: left;
     margin: 0;
     padding: 0;
+}
+
+/*REDIMENSIONAR PARA A IMAGEM COBRIR O ESPAÇO DO CARROSSEL*/
+.item-crown img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
 }
 
 .item-crown a .desc {

@@ -2,6 +2,9 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:11,
     nav:true,
+    autoplay:false,
+    autoplaySpeed:1000,
+    arrows:true,
     responsive:{
         0:{
             items:1
