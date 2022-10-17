@@ -1,5 +1,7 @@
 # ARTFLIX: NFTGalery
 
+![image](https://user-images.githubusercontent.com/74994097/196303588-4e3f0957-0bc2-4d18-9e86-0ecdade48699.png)
+
 ## Hospedado em: https://nftgalery.vercel.app/index.html
 
 #### Na pasta img contém os meus NFT's utilizados.
